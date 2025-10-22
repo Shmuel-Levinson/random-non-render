@@ -9,7 +9,7 @@ export const Route = createFileRoute(
 function RouteComponent() {
   return (
     <div>
-      Violation Tickets (index.tsx)
+      Violation Tickets (assets/violation-tickets/{-$id}/index.tsx)
     </div>
   )
 }

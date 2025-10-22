@@ -6,12 +6,10 @@ import {
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
 
 export const Route = createRootRoute({
-    beforeLoad: () => ({ getTitle: () => 'HOME' }),
     component: RootComponent,
 });
 
 function RootComponent() {
-    // @ts-ignore
     // @ts-ignore
     return (
         <div style={{ background: 'white' }}>

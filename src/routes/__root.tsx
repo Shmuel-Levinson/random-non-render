@@ -19,7 +19,7 @@ function RootComponent() {
                     Home
                 </Link>
                 <Link to="/1234/assets/policy-violations/" style={{ color: 'blue' }}>
-                    working: Policy Violation Tickets (assets/policy-violations/)
+                    works: Policy Violations (assets/policy-violations/)
                 </Link>
                 <Link to="/1234/assets/violation-tickets/" style={{ color: 'orange' }}>
                     doesn't work: Violation Tickets (assets/violation-tickets/)
